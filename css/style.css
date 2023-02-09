@@ -1,28 +1,54 @@
 /* UTILITY */
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-.comtainer{
+
+.container {
     max-width: 1152px;
     width: 90%;
     margin: auto;
 }
 
 /* HEADER */
-#app_header{
+#app_header {
     background-color: black;
     color: white;
     border-bottom: 1px solid yellowgreen;
 }
+
 /* MAIN */
-#app_main{
+#app_main {
     background-color: black;
 }
-.col-7{
-    width: calc(100% / 12 * 7);
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
     border: 1px solid deeppink;
     padding: 3rem;
     margin: auto;
+}
+
+/* .col-7{
+    width: calc(100% / 12 * 2);
+    border: 1px solid deeppink;
+    padding: 3rem;
+    margin: auto;
+} */
+
+/* FOOTER */
+#app_footer{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: darkslategrey;
+    padding: 2rem;
+
 }
