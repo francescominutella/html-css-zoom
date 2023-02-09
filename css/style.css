@@ -4,16 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container {
+body{
+    background-color: black;
+}
+.container{
     max-width: 1152px;
-    width: 70%;
+    width: 80%;
+    height: 600px;
     margin: auto;
+    border: 2px solid red;
+    overflow:scroll;
+    margin-top: 5rem;
 }
 
-
 /* HEADER */
-#app_header {
+#app_header{
     background-color: black;
     color: white;
     border-bottom: 1px solid yellowgreen;
@@ -23,23 +28,21 @@
 #app_main {
     background-color: black;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 1px ;
-    overflow: hidden;
 }
-
 .col4{
-    width: 200px;
-    gap:5px;
+    width: calc((100% / 12) * 2);
 }
-
-
+.screen{
+    padding-top: 2px;
+}
 
 
 /* FOOTER */
-#app_footer{
+/* #app_footer{
     position: sticky;
     top: 0;
     left: 0;
@@ -47,4 +50,4 @@
     background-color: darkslategrey;
     padding: 2rem;
 
-}
+} */
