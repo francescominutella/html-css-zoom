@@ -10,7 +10,7 @@ body{
 .container{
     max-width: 1152px;
     width: 80%;
-    height: 600px;
+    height: 800px;
     margin: auto;
     border: 2px solid red;
     overflow:scroll;
@@ -38,6 +38,7 @@ body{
 }
 .screen{
     padding-top: 2px;
+    text-align: center;
 }
 
 
