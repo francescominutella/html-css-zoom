@@ -50,6 +50,7 @@ body {
     height: 100%;
     justify-content: center;
     overflow-y: auto;
+    align-content: center;
 }
 
 .col4 {
