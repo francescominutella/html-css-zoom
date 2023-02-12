@@ -30,7 +30,19 @@ body{
 /* HEADER */
 #app_header{
     height: 60px;
+    text-align: end;
 }
+
+.btn
+{
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  background-color: var(--z-navbarr);
+  color: var(--z-icon);
+}
+
+
 
 /* MAIN */
 #app_main {
@@ -114,5 +126,4 @@ a {
     z-index: 10000;
     background-color:var(--z-navbarr);
     height: 60px;
-
 }
