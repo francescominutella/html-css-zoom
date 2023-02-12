@@ -18,11 +18,9 @@ body{
     background-color:var(--z-bg);
 }
 .container{
-    max-width: 1152px;
-    width: 80%;
-    height: 800px;
+    /* max-width: 1152px; */
+    height: calc(100vh - 120px);
     margin: auto;
-    /* border: 2px solid red; */
     overflow:scroll;
     margin-top: 5rem;
 }
