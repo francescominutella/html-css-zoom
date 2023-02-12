@@ -41,6 +41,7 @@ body{
 /* MAIN */
 #app_main {
     height: calc(100vh - 120px);
+    overflow-y: auto;
 }
  
 /* .link{
@@ -102,17 +103,18 @@ a {
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
-    overflow-y: auto;
-    
 }
+
 .col4{
-    width: calc((100% / 12) * 2);
+    width: 150px;
+    height: 100;
     position: relative;
 }
-.screen{
+/* .screen{
     padding-top: 2px;
     text-align: center;
-}
+} */
+
 .user
 {
   position: absolute;
@@ -121,6 +123,10 @@ a {
   background-color: var(--z-navbarr);
   color: var(--z-icon);
   padding: 0.25rem
+}
+
+.user:hover{
+    background-color: red;
 }
 
 /* FOOTER */
