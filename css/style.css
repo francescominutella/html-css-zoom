@@ -17,10 +17,10 @@ body{
     background-color:var(--z-bg);
 }
 
-.container{
+/* .container{
     margin: auto;
     margin-top: 5rem;
-}
+} */
 
 /* HEADER */
 #app_header{
@@ -41,68 +41,16 @@ body{
 /* MAIN */
 #app_main {
     height: calc(100vh - 120px);
-    overflow-y: auto;
+    
 }
  
-/* .link{
-    position: relative;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    font-size: 20px;
-}
-
-.link i{
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-}
-
-.link:hover .linkup_over{
-    display: block;
-    color: brown;
-    font-size: 50px;
-}
-
-.linkdown:hover .linkdown_over{
-    display: block;
-    color: brown;
-    font-size: 50px;
-}
-
-.linkdown{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.linkup{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-a {
-    text-decoration: none;
-    color:cornflowerblue;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style:  ;
-} */
-
-/* #head #id{
-    position: relative;
-    bottom: 0;
-    color: aqua;
-    height: 1px;
-} */
 /* GRID_main */
 .row{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
+    overflow-y: auto;
 }
 
 .col4{
@@ -131,10 +79,8 @@ a {
 
 /* FOOTER */
 #app_footer{
-    position: sticky;
     top: 0;
     left: 0;
-    z-index: 10000;
     background-color:var(--z-navbarr);
     height: 60px;
 }
