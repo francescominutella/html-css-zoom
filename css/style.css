@@ -13,16 +13,13 @@
     --z-navbarr: dimgray;
 }
 
-
 body{
     background-color:var(--z-bg);
 }
+
 .container{
-    /* max-width: 1152px; */
-    height: calc(100vh - 120px);
     margin: auto;
     margin-top: 5rem;
-    height: calc(100vh - 120px);
 }
 
 /* HEADER */
@@ -43,8 +40,7 @@ body{
 
 /* MAIN */
 #app_main {
-    
-    overflow:scroll;
+    height: calc(100vh - 120px);
 }
  
 /* .link{
@@ -106,15 +102,26 @@ a {
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
+    overflow-y: auto;
+    
 }
-/* .col4{
+.col4{
     width: calc((100% / 12) * 2);
+    position: relative;
 }
 .screen{
     padding-top: 2px;
     text-align: center;
-} */
-
+}
+.user
+{
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  background-color: var(--z-navbarr);
+  color: var(--z-icon);
+  padding: 0.25rem
+}
 
 /* FOOTER */
 #app_footer{
