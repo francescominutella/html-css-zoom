@@ -80,6 +80,7 @@ body {
     top: 0;
     left: 0;
     background-color: var(--z-navbarr);
-    height: 60px;
     display: flex;
+    justify-content: space-between;
+    height: 60px;
 }
