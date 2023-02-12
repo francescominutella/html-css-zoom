@@ -4,8 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
         <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
 
@@ -22,19 +26,29 @@
         <main id="app_main">
 
             <div class="container">
+
                 <div class="link">
                     <div class="linkdown">
-                        <nav>
-                            <a href="">Go Down</a>
-                        </nav>
+                        <div class="linkdown">
+                            <a href="">Down</a>
+                        </div>
+                        <div class="linkdown_over">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
                     </div>
-
                     <div class="linkup">
-                        <nav>
-                            <a href="">Go Up</a>
-                        </nav>
+                        <div class="linkup">
+                            <a href="">Up</a>
+                        </div>
+                        <div class="linkup_over">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
                     </div>
                 </div>
+
+                <div id="head">head</div>
+                <div id="tie">tie</div>
+
                 <div class="row">
                     <div class="col4">
                         <div class="screen">
@@ -620,7 +634,7 @@
         </main>
         <!-- /#app_main -->
         <footer id="app_footer">
-
+            
         </footer>
         <!-- /#app_footer -->
 
