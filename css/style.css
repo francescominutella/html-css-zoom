@@ -7,10 +7,10 @@
 
 :root {
     --z-icon: white;
-    --z-end: red;
-    --z-share: green;
+    --z-end: #f00;
+    --z-share: #4ac901;;
     --z-bg: black;
-    --z-navbarr: dimgray;
+    --z-navbarr: #808080;
 }
 
 body {
@@ -112,5 +112,5 @@ footer .icon
 }
 
 .share{
-    color: #4ac901;;
+    color: var(--z-share)
 }
