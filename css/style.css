@@ -21,8 +21,8 @@ body{
     /* max-width: 1152px; */
     height: calc(100vh - 120px);
     margin: auto;
-    overflow:scroll;
     margin-top: 5rem;
+    height: calc(100vh - 120px);
 }
 
 /* HEADER */
@@ -43,7 +43,8 @@ body{
 
 /* MAIN */
 #app_main {
-    height: calc(100vh - 120px);
+    
+    overflow:scroll;
 }
  
 /* .link{
