@@ -107,4 +107,10 @@ footer .icon
   background: #808080;
   border: none;
   height: 100%;
+  border: none;
+  padding: 0 0.5rem;
+}
+
+.share{
+    color: #4ac901;;
 }
