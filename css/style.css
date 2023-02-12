@@ -98,4 +98,13 @@ footer .icon
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1rem;
+}
+
+.navright button
+{
+  color: #f00;
+  background: #808080;
+  border: none;
+  height: 100%;
 }
